@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+
+# Resultados y reportes de Playwright (se generan en cada ejecución)
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Variables de entorno locales (pueden contener credenciales)
+.env
+.env.*
+!.env.example
+
+# Sistema operativo / editor
+.DS_Store
+*.log
+.vscode/
+.idea/
