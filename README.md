@@ -31,8 +31,8 @@ Proyecto desarrollado como reto técnico de QA Automation. Su objetivo es analiz
 ## Instalación
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd saucedemo-qa-challenge
+git clone https://github.com/RodriSabino/credicorp-capital-playwright.git
+cd credicorp-capital-playwright
 npm install
 npx playwright install chromium
 cp .env.example .env
@@ -122,4 +122,4 @@ playwright.config.ts    Configuración: ambiente, reportes y evidencias
 
 ## Uso de inteligencia artificial
 
-Se utilizó **Claude (Anthropic)** como asistente para estructurar el análisis, proponer casos de prueba y redactar borradores de código y documentación. Todo fue revisado, ejecutado y validado contra la aplicación real. Durante la exploración se corrigieron supuestos iniciales de la IA (por ejemplo, la interpretación del límite de productos en el carrito) con evidencia obtenida directamente del sitio.
+Se utilizó **Claude** como asistente para estructurar el análisis, proponer casos de prueba y redactar borradores de código y documentación. Todo fue revisado, ejecutado y validado contra la aplicación real. Durante la exploración se corrigieron supuestos iniciales de la IA (por ejemplo, la interpretación del límite de productos en el carrito) con evidencia obtenida directamente del sitio.

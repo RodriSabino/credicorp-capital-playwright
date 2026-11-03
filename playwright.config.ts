@@ -20,8 +20,10 @@ export default defineConfig({
     baseURL: process.env.BASE_URL ?? 'https://www.saucedemo.com',
     // SauceDemo expone el atributo data-test (no data-testid).
     testIdAttribute: 'data-test',
-    // Evidencias: captura al final de cada test; trace y vídeo solo si falla.
-    screenshot: 'on',
+    // Evidencias: las capturas por paso las adjunta la fixture "step";
+    // aquí solo se agrega una captura automática si el test falla,
+    // junto con el trace y el vídeo para depurar.
+    screenshot: 'only-on-failure',
     trace: 'retain-on-failure',
     video: 'retain-on-failure',
   },
